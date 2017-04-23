@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Module Assignment 2</title>
+<style>
+	body{
+	font-family:Heletica, Arial, san-serif;
+	box-sizing: border-box;
+	margin:0px;
+	padding:0px;
+}
+div{
+	float:left;
+	border: 2px solid black;
+	margin: 20px 0px 20px 20px;
+	background: grey;
+}
+h1{
+	font-size:1.75em;
+	text-align: center;
+}
+h2{
+	padding:5px;
+	margin-top:0px;
+	margin-bottom:0px;
+	position:relative;
+	float:right;
+	font-size:1.25em;
+	border:2px solid black;
+}
+p{
+	clear:right;
+	margin: 20px 10px 5px 10px;
+}
+
+#hc{
+	background: green;
+}
+
+#hb{
+	background: brown;
+}
+
+#hs{
+	background: yellow;
+}
+
+/********** Large devices only **********/
+@media (min-width: 992px) {
+  #div1{
+    width: 30%;
+  }
+  #div2{
+    width: 30%;
+  }
+  #div3{
+    width: 30%;
+  }
+}
+ 
+/********** Medium devices only **********/
+@media (min-width: 768px) and (max-width: 991px) {
+  #div1 {
+    width: 40%;
+  }
+  #div2 {
+    width: 40%;
+  }
+  #div3{
+  	width: 83%;
+  }
+}
+
+/********** Small devices only **********/
+@media (max-width: 767px) {
+  #div1, #div2, #div3 {
+    width: 85%;
+  }
+}
+</style>>
+</head>
+
+<body>
+<h1>Our Menu</h1>
+
+<div id="div1"><h2 id="hc">chicken</h2>
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+</div>
+
+<div id="div2"><h2 id="hb">beef</h2>
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+</div>
+
+<div id="div3"><h2 id="hs">sushi</h2>
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+</div>
+
+</body>
+
+</html>
